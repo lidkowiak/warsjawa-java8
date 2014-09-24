@@ -1,0 +1,8 @@
+Exercise #13
+------------
+
+Refactor and redesign InvoiceItem.activate method.
+
+Hint
+------------
+Replace command pattern with functional equivalent.

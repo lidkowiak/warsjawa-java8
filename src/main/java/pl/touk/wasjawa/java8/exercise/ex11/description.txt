@@ -1,0 +1,5 @@
+Exercise #11
+------------
+
+Look at the test of Exercise11 class and think about add method tests. Which one is "better"? Can you use lambda
+expression to write test which will merge good side of first and second one?

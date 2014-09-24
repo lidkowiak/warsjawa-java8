@@ -1,0 +1,8 @@
+Exercise #15
+------------
+
+Refactor Exercise15 methods to eliminate if statements.
+
+Hint
+------------
+Replace strategy pattern with functional equivalent.

@@ -1,0 +1,4 @@
+Exercise #09
+------------
+
+Design new method in Cache class to simplify Factorial.factorial method.

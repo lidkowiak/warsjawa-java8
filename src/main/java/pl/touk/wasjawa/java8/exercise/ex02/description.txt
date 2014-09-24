@@ -1,0 +1,4 @@
+Exercise #02
+------------
+
+Refactor StocksService.totalValueOfExpensiveStocks method to eliminate mutability.

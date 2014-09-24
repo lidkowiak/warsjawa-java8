@@ -1,0 +1,4 @@
+Exercise #03
+------------
+
+Refactor StockService.companyNames method to eliminate mutability.

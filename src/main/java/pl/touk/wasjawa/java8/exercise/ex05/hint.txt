@@ -1,0 +1,4 @@
+Exercise #05
+------------
+
+Use mapToInt to convert Stream to IntStream.

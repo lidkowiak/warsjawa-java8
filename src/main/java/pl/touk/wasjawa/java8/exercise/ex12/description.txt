@@ -1,0 +1,9 @@
+Exercise #12
+------------
+
+Refactor recursion in Exercise12.fib method to tail recursive algorithm.
+
+Hint
+------------
+You can design lazy evaluation using lambda expression.
+Stream.iterate and stream evaluation may by helpful.

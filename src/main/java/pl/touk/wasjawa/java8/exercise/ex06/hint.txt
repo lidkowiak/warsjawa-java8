@@ -1,0 +1,4 @@
+Exercise #06
+------------
+
+You can use Collectors.groupingBy method.

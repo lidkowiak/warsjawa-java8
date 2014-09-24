@@ -1,0 +1,9 @@
+Exercise #08
+------------
+
+Refactor MovieService.actorsToActorsNames method to eliminate mutability and redesign Logger to eliminate eager
+argument evaluation.
+
+Hint
+------------
+As an argument of debug method you can use lambda expression.

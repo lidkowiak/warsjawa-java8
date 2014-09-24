@@ -1,0 +1,9 @@
+Exercise #14
+------------
+
+Refactor Exercise14.measureImageContrast and Exercise14.measureImageBrightness methods in accordance with the DRY and
+single responsibility principles.
+
+Hint
+------------
+Replace decorator pattern with functional equivalent.

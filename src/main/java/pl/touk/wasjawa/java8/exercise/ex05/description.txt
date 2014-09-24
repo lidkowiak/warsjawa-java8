@@ -1,0 +1,4 @@
+Exercise #05
+------------
+
+Refactor MovieService.calculateMoviesStats method to eliminate mutability.

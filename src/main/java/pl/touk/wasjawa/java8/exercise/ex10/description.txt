@@ -1,0 +1,8 @@
+Exercise #10
+------------
+
+Refactor Exercise10.stocksStats method to eliminate mutability.
+
+Hint
+------------
+You can create your own implementation of Collector interface.

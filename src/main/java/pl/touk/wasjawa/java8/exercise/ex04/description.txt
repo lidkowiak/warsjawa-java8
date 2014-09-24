@@ -1,0 +1,4 @@
+Exercise #04
+------------
+
+Refactor MovieService.polishActorNamesInNewMovies method to eliminate mutability.

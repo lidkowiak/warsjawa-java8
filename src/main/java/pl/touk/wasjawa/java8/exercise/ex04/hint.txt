@@ -1,0 +1,4 @@
+Exercise #04
+------------
+
+You can use flatMap method on stream.

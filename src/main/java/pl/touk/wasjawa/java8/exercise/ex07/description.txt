@@ -1,0 +1,8 @@
+Exercise #07
+------------
+
+Redesign Exercise07.choose method to eliminate eager argument evaluation.
+
+Hint
+------------
+As arguments you can use lambda expression.

@@ -1,0 +1,13 @@
+public BigInteger fib(int n) {
+    if (n < 0) {
+        throw new IllegalArgumentException("n must be positive number, given" + n);
+    }
+    return lambdaTailRecFib(BigInteger.ONE, BigInteger.ZERO, n).apply();
+}
+
+private RecCall<BigInteger> lambdaTailRecFib(BigInteger preElement, BigInteger praPreElement, int n) {
+    if (n == 0 || n == 1) {
+        return RecCall.stop(preElement.add(praPreElement));
+    }
+    return RecCall.cont(() -> lambdaTailRecFib(preElement.add(praPreElement), preElement, n - 1));
+}

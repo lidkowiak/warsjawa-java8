@@ -1,0 +1,13 @@
+public BigInteger fib(int n) {
+    if (n < 0) {
+        throw new IllegalArgumentException("n must be positive number, given" + n);
+    }
+    return tailRecFib(BigInteger.ONE, BigInteger.ZERO, n);
+}
+
+public BigInteger tailRecFib(BigInteger first, BigInteger second, int n) {
+    if (n == 0 || n == 1) {
+        return first.add(second);
+    }
+    return tailRecFib(first.add(second), first, n-1);
+}

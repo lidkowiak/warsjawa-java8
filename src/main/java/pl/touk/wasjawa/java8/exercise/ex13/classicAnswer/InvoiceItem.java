@@ -1,15 +1,15 @@
-package pl.touk.wasjawa.java8.exercise.ex13.clasicAnswer;
-
-import pl.touk.wasjawa.java8.exercise.ex13.User;
+package pl.touk.wasjawa.java8.exercise.ex13.classicAnswer;
 
 import java.math.BigDecimal;
 
+import pl.touk.wasjawa.java8.exercise.ex13.User;
+
 public class InvoiceItem {
-    private String domainName;
-    private BigDecimal netPrice;
-    private BigDecimal taxPercent;
-    private User buyer;
-    private InvoiceItemAction invoiceItemAction;
+    private final String domainName;
+    private final BigDecimal netPrice;
+    private final BigDecimal taxPercent;
+    private final User buyer;
+    private final InvoiceItemAction invoiceItemAction;
 
     public InvoiceItem(String domainName, BigDecimal netPrice, BigDecimal taxPercent, User buyer, InvoiceItemAction invoiceItemAction) {
         this.domainName = domainName;
@@ -17,5 +17,9 @@ public class InvoiceItem {
         this.taxPercent = taxPercent;
         this.buyer = buyer;
         this.invoiceItemAction = invoiceItemAction;
+    }
+
+    public void activate() {
+	invoiceItemAction.activate();
     }
 }

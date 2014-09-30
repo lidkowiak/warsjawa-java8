@@ -1,14 +1,16 @@
 package pl.touk.wasjawa.java8.exercise.ex01;
 
-import org.junit.Test;
-import pl.touk.wasjawa.java8.exercise.common.movies.Actor;
-import pl.touk.wasjawa.java8.exercise.common.movies.Movie;
-import pl.touk.wasjawa.java8.exercise.common.movies.MovieFactory;
+import static org.junit.Assert.assertEquals;
 
 import java.util.Collections;
 import java.util.List;
 
-import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+
+import pl.touk.wasjawa.java8.exercise.common.movies.Actor;
+import pl.touk.wasjawa.java8.exercise.common.movies.Movie;
+import pl.touk.wasjawa.java8.exercise.common.movies.MovieFactory;
+import pl.touk.wasjawa.java8.exercise.ex01.answer.MovieService;
 
 public class MovieServiceTest {
 
@@ -48,8 +50,8 @@ public class MovieServiceTest {
         //when
         List<String> polishActorNames = movieService.polishActorNames(someMovie);
 
-        //then
-        assertEquals(0, polishActorNames.size());
+	// then
+	assertEquals(0, polishActorNames.size());
     }
 
 }

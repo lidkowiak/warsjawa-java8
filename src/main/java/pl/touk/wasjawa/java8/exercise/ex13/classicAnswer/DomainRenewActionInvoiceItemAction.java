@@ -1,4 +1,4 @@
-package pl.touk.wasjawa.java8.exercise.ex13.clasicAnswer;
+package pl.touk.wasjawa.java8.exercise.ex13.classicAnswer;
 
 import pl.touk.wasjawa.java8.exercise.ex13.DomainRegister;
 

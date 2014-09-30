@@ -1,14 +1,16 @@
 package pl.touk.wasjawa.java8.exercise.ex02;
 
-import org.junit.Test;
-import pl.touk.wasjawa.java8.exercise.common.stocks.Stock;
+import static org.junit.Assert.assertEquals;
 
 import java.math.BigDecimal;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+
+import pl.touk.wasjawa.java8.exercise.common.stocks.Stock;
+import pl.touk.wasjawa.java8.exercise.ex02.answer.StocksService;
 
 public class StocksServiceTest {
 

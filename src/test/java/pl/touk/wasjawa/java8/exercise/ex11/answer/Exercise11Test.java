@@ -2,9 +2,10 @@ package pl.touk.wasjawa.java8.exercise.ex11.answer;
 
 import org.junit.Assert;
 import org.junit.Test;
+
 import pl.touk.wasjawa.java8.exercise.ex11.Exercise11;
 
-public class Exercise14Test {
+public class Exercise11Test {
 
     @Test
     public void shouldAddMethodThrowExceptionOnNegativeInput_firstTest() {

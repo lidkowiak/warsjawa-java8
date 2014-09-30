@@ -1,15 +1,17 @@
 package pl.touk.wasjawa.java8.exercise.ex10;
 
-import org.junit.Assert;
-import org.junit.Test;
-import pl.touk.wasjawa.java8.exercise.common.stocks.Stock;
-
 import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
+
+import org.junit.Assert;
+import org.junit.Test;
+
+import pl.touk.wasjawa.java8.exercise.common.stocks.Stock;
+import pl.touk.wasjawa.java8.exercise.ex10.answer.StockService;
 
 public class StockServiceTest {
 
@@ -46,6 +48,7 @@ public class StockServiceTest {
         List<Stock> stocks = Collections.emptyList();
 
         //when
+
         BigDecimalStats stats = stockService.stocksStats(stocks);
 
         //then

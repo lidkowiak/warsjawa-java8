@@ -1,17 +1,19 @@
 package pl.touk.wasjawa.java8.exercise.ex06;
 
-import org.junit.Assert;
-import org.junit.Test;
-import pl.touk.wasjawa.java8.exercise.common.CountryCode;
-import pl.touk.wasjawa.java8.exercise.common.movies.Movie;
-import pl.touk.wasjawa.java8.exercise.common.movies.MovieFactory;
-
 import java.util.List;
 import java.util.Map;
 
+import org.junit.Assert;
+import org.junit.Test;
+
+import pl.touk.wasjawa.java8.exercise.common.CountryCode;
+import pl.touk.wasjawa.java8.exercise.common.movies.Movie;
+import pl.touk.wasjawa.java8.exercise.common.movies.MovieFactory;
+import pl.touk.wasjawa.java8.exercise.ex06.answer.MovieService;
+
 public class MovieServiceTest {
 
-    private MovieService movieService = new MovieService();
+    private final MovieService movieService = new MovieService();
 
     @Test
     public void shouldGroupActorByCountry() {

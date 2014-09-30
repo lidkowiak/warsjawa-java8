@@ -1,15 +1,17 @@
 package pl.touk.wasjawa.java8.exercise.ex08;
 
+import java.util.List;
+
 import org.junit.Assert;
 import org.junit.Test;
+
 import pl.touk.wasjawa.java8.exercise.common.movies.Movie;
 import pl.touk.wasjawa.java8.exercise.common.movies.MovieFactory;
-
-import java.util.List;
+import pl.touk.wasjawa.java8.exercise.ex08.answer.MovieService;
 
 public class MovieServiceTest {
 
-    private MovieService movieService = new MovieService();
+    private final MovieService movieService = new MovieService();
 
     @Test
     public void shouldConvertActorListToActorNameList() {

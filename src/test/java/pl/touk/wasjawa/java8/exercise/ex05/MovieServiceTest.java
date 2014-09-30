@@ -1,17 +1,19 @@
 package pl.touk.wasjawa.java8.exercise.ex05;
 
-import org.junit.Assert;
-import org.junit.Test;
-import pl.touk.wasjawa.java8.exercise.common.movies.Movie;
-import pl.touk.wasjawa.java8.exercise.common.movies.MovieFactory;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+import org.junit.Assert;
+import org.junit.Test;
+
+import pl.touk.wasjawa.java8.exercise.common.movies.Movie;
+import pl.touk.wasjawa.java8.exercise.common.movies.MovieFactory;
+import pl.touk.wasjawa.java8.exercise.ex05.answer.MovieService;
+
 public class MovieServiceTest {
 
-    private MovieService movieService = new MovieService();
+    private final MovieService movieService = new MovieService();
 
     @Test
     public void shouldCalculateMovieStats() {

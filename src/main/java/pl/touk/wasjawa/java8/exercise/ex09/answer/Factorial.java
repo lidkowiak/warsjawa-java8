@@ -4,16 +4,16 @@ import java.math.BigInteger;
 
 public class Factorial {
 
-    private static Cache<Integer, BigInteger> cache = new Cache<>();
+    private static Cache<Integer, BigInteger> cache = Cache.forFunction(((k) -> calculateFactorial(k)));
 
     public static BigInteger factorial(int n) {
-        return cache.getOrCache(n, () -> calculateFactorial(n));
+	return cache.getOrCache(n);
     }
 
     private static BigInteger calculateFactorial(int n) {
-        if (n == 1) {
-            return BigInteger.ONE;
-        }
-        return factorial(n-1).multiply(BigInteger.valueOf(n));
+	if (n == 1) {
+	    return BigInteger.ONE;
+	}
+	return factorial(n - 1).multiply(BigInteger.valueOf(n));
     }
 }

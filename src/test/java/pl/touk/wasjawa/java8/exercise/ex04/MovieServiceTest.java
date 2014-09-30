@@ -1,13 +1,15 @@
 package pl.touk.wasjawa.java8.exercise.ex04;
 
-import org.junit.Test;
-import pl.touk.wasjawa.java8.exercise.common.movies.Movie;
-import pl.touk.wasjawa.java8.exercise.common.movies.MovieFactory;
+import static org.junit.Assert.assertEquals;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+
+import pl.touk.wasjawa.java8.exercise.common.movies.Movie;
+import pl.touk.wasjawa.java8.exercise.common.movies.MovieFactory;
+import pl.touk.wasjawa.java8.exercise.ex04.answer.MovieService;
 
 public class MovieServiceTest {
 
